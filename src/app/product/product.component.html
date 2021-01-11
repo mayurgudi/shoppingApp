@@ -1,0 +1,9 @@
+<div class="container">
+	<div class="card" *ngFor="let product of products">
+		<img src={{product.src}} alt="Denim Jeans" style="width:90%;">
+		<h1 style="width: 90%; margin-left: auto; margin-right: auto;">{{product.title}}</h1>
+		<p style="width: 90%; margin-left: auto; margin-right: auto;" class="price">$19.99</p>
+		<p style="width: 90%; margin-left: auto; margin-right: auto; text-align: left;">{{product.desc}}</p>
+		<p><button style="width: 90%; margin-left: auto; margin-right: auto;">View Details</button></p>
+	</div>
+</div>
