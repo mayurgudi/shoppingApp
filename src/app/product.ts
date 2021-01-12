@@ -1,4 +1,4 @@
-export const products = [
+export const products: Item[] = [
   {
     src:
       "https://res.cloudinary.com/mhmd/image/upload/v1556485076/shoes-1_gthops.jpg",
