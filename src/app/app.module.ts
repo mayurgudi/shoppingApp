@@ -10,7 +10,6 @@ import { ItemComponent } from "./item/item.component";
 @NgModule({
   imports: [BrowserModule, FormsModule],
   declarations: [AppComponent, HelloComponent, ProductComponent, ItemComponent],
-  bootstrap: [AppComponent],
-  providers: [ProductService]
+  bootstrap: [AppComponent]
 })
 export class AppModule {}
